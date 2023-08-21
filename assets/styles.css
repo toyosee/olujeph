@@ -1,0 +1,39 @@
+  .central{
+    text-align: center;
+    margin-top: 20px;
+  }
+
+  .header{
+    font-weight: bolder;
+    color: tomato;
+  }
+
+  .input-area{
+    padding: 20px 0;
+  }
+
+  .add{
+    color: green;
+  }
+
+  .for-btn{
+    padding: 0 0 20px 0;
+  }
+
+  .for-btn-color{
+    background: tomato;
+    color: white;
+  }
+
+  .for-btn-color:hover{
+    background: green;
+    color: white;
+  }
+ 
+  .delete-icon {
+    cursor: pointer;
+  }
+
+  .delete-icon:hover {
+    color: red;
+  }

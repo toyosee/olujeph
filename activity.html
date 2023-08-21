@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!--<link rel="stylesheet" type="text/css" href="assets/styles.css"/>-->
+    <link rel="stylesheet" type="text/css" href="assets/bootstrap.css"/>
+    <style>.yes{background: tomato;}</style>
+    <title>Activity file</title>
+</head>
+<body style="margin-top: 30px;">
+    <!-- This is html comment 
+    <div class="container">
+        <p id="change1">I will change</p>
+        <p id="change2">I will change</p>
+        <p id="change3">I will change</p>
+        <br>
+        <input type="text" id="input1"><br>
+        <input type="text" id="input2"><br>
+        <input type="text" id="input3"><br>
+        <input type="text" id="input4"><br>
+        <button id="btn" onclick="doSo()">Submit</button> -->
+        <div class="container"> 
+            
+            <!-- <div class="input-group mb-3">
+                <div class="input-group-prepend">
+                  <span class="input-group-text" id="basic-addon1">@</span>
+                </div>
+                <input id="sender" type="text" class="form-control" placeholder="Username" aria-label="Username" aria-describedby="basic-addon1">
+              </div>
+              
+              <div class="input-group mb-3">
+                <input type="text" id="receiver" class="form-control" placeholder="Recipient's username" aria-label="Recipient's username" aria-describedby="basic-addon2">
+                <div class="input-group-append">
+                  <span class="input-group-text" id="basic-addon2">@example.com</span>
+                </div>
+              </div>
+              
+              <label for="basic-url">Your vanity URL</label>
+              <div class="input-group mb-3">
+                <div class="input-group-prepend">
+                  <span class="input-group-text" id="basic-addon3">https://example.com/users/</span>
+                </div>
+                <input type="text" class="form-control" id="receiver" aria-describedby="basic-addon3">
+              </div>
+              
+              <div class="input-group mb-3">
+                <div class="input-group-prepend">
+                  <span class="input-group-text">$</span>
+                </div>
+                <input type="text" class="form-control" aria-label="Amount (to the nearest dollar)" id="amount">
+                <div class="input-group-append">
+                  <span class="input-group-text">.00</span>
+                </div>
+              </div>
+              
+              <div class="input-group">
+                <div class="input-group-prepend">
+                  <span class="input-group-text">With textarea</span>
+                </div>
+                <textarea class="form-control" id="reason" aria-label="With textarea"></textarea>
+              </div> -->
+              <div class="card text-center">
+                <div class="card-header">
+                  <ul class="nav nav-tabs card-header-tabs">
+                    <li class="nav-item">
+                      <a class="nav-link active" aria-current="true" href="#">Active</a>
+                    </li>
+                    <li class="nav-item">
+                      <a class="nav-link" href="#">Link</a>
+                    </li>
+                    <li class="nav-item">
+                      <a class="nav-link disabled" aria-disabled="true">Disabled</a>
+                    </li>
+                  </ul>
+                </div>
+                <div>
+                  <p><strong>Welcome Customer</strong></p>
+                  <button class="btn btn-primary btn-lg yes" onclick="view_customer()">Customer Details</button>
+                  <button class="btn btn-dark" onclick="all_accounts()">All Accounts</button>
+                  <button class="btn btn-success" id="btn3" onclick="reset()">Reset</button>
+                  <p><strong id="customer">Customer details will appear here</strong></p>
+                </div> 
+                <div id="incoming"></div>
+              </div>    
+    </div>
+
+    <script src="assets/scripts.js"></script>
+</body>
+</html>
